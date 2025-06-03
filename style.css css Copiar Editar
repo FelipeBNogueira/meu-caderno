@@ -1,38 +1,28 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fdfdfd;
-  font-family: 'Dancing Script', cursive;
+  background-color: #fefefe;
+  font-family: 'Patrick Hand', cursive;
 }
 
-.notebook {
+.page {
   position: relative;
-  padding: 60px 40px;
   max-width: 800px;
-  margin: auto;
-  line-height: 2.5em;
-  font-size: 22px;
-  background:
-    repeating-linear-gradient(
-      to bottom,
-      #ffffff,
-      #ffffff 24px,
-      #add8e6 25px
-    );
+  height: 100vh;
+  margin: 0 auto;
+  padding: 60px 40px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffffff 35px,
+    #cce7ff 36px
+  );
   border-left: 4px solid red;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  border-bottom: 2px dashed #ccc;
-}
-
-code {
-  font-family: 'Courier New', monospace;
-  background-color: #eee;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 18px;
+.content {
+  white-space: pre-wrap;
+  font-size: 20px;
+  line-height: 35px;
 }
