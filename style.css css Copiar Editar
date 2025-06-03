@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pacifico', cursive;
+  background: #fdfdfd;
+}
+
+.notebook {
+  background-image: url('caderno.png'); /* Nome da imagem que você mandou */
+  background-size: cover;
+  min-height: 100vh;
+  padding: 80px 40px;
+  box-sizing: border-box;
+}
+
+.note-content {
+  max-width: 700px;
+  margin: auto;
+  font-size: 22px;
+  line-height: 1.8;
+  color: #222;
+}
+
+code {
+  background: #eee;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 18px;
+}
