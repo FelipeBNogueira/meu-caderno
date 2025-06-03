@@ -1,30 +1,38 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Pacifico', cursive;
-  background: #fdfdfd;
+  background-color: #fdfdfd;
+  font-family: 'Dancing Script', cursive;
 }
 
 .notebook {
-  background-image: url('caderno.png'); /* Nome da imagem que você mandou */
-  background-size: cover;
-  min-height: 100vh;
-  padding: 80px 40px;
-  box-sizing: border-box;
+  position: relative;
+  padding: 60px 40px;
+  max-width: 800px;
+  margin: auto;
+  line-height: 2.5em;
+  font-size: 22px;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      #ffffff,
+      #ffffff 24px,
+      #add8e6 25px
+    );
+  border-left: 4px solid red;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.note-content {
-  max-width: 700px;
-  margin: auto;
-  font-size: 22px;
-  line-height: 1.8;
-  color: #222;
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed #ccc;
 }
 
 code {
-  background: #eee;
-  padding: 2px 5px;
+  font-family: 'Courier New', monospace;
+  background-color: #eee;
+  padding: 2px 6px;
   border-radius: 4px;
-  font-family: monospace;
   font-size: 18px;
 }
